@@ -1,0 +1,16 @@
+.smlinks {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.smicon {
+    width:32px;
+    height:32px;
+    padding:0.2rem;
+
+}
+.smicon:hover{
+    cursor: pointer;
+    color:#FC4466;
+}
