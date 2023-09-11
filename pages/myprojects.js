@@ -20,7 +20,7 @@ const myProjects = () => {
     <ul className={styles.projectslist}>
     <li className={styles.projectitem}>
       <div className={styles.projectlinks}>
-      <p className={styles.projecttitle}>Adventure and Exploration Guide </p>
+      <p className={styles.projecttitle}>Adventure Guide </p>
       <a className={styles.projectlink} href="https://adventures-exploration-guide.vercel.app/">
         Go to Website</a>
         <div>

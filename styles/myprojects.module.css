@@ -31,6 +31,7 @@
         justify-content: center;
         border-radius: 12px;
         font-size:20px;
+        width:350px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .icon {
@@ -42,6 +43,7 @@
     font-size:24px;
     font-weight: bold;
     margin:12px;
+    text-align: center;
 }
 .projectlink {
     
@@ -107,4 +109,17 @@
 .previewbtn:hover {
     cursor: pointer;
     background-color: #e3e8ff;
+}
+@media (max-width: 768px) {
+    /* Adjust .mainContainer padding for smaller screens */
+    .projectslist {
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .projectitem{
+        width:350px;
+    }
 }
