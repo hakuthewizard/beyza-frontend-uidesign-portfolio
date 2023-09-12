@@ -59,7 +59,7 @@ const myProjects = () => {
         </Head>
     <Navbar/>
     
-    <div className={styles.projectContainer}>çl
+    <div className={styles.projectContainer}>
     <p className={styles.heading}>My Projects</p>
     <ul className={styles.projectslist}>
 
