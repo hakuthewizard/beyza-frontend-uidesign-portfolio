@@ -2,34 +2,43 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Apercu;
-    color: #4466fc;
-    margin-right:12px;
-    margin-left: 12px;
+    font-family:'Apercu';
+    color: #06091a;
+    padding:0;
+   padding-right: 16px;
+   padding-left: 16px;
+   
 }
 .heading {
     all:unset;
-    display: flex;
+    margin:0.2rem;
+    border: 1px solid transparent;
+    color: #06091a;
+    border-radius:12px;
     font-size:24px;
-    margin:0;
-    padding: 0;
+    padding:12px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 28px;
+  font-weight: bold;
 }
 .heading:hover {
   cursor:pointer;
-  color:#FC4466;
+  color:#899efd;
 }
 .about{
     all:unset;
     text-decoration: none;
-   margin-right:1rem;
-   font-weight: bold;
+   margin-right:0.5rem;
+   
+   margin-bottom:0;
    
 
 }
 .about:hover {
     cursor: pointer;
-    color:#FC4466;
+    color:#899efd;
 }
 .leftside {
   display:flex;

@@ -1,16 +1,15 @@
 .main {
-    background-color: #f1f1f1;
     display: flex;
     grid-template-columns: repeat(2, 1fr);
-    font-family: Apercu;
-    color: #4466fc ;
+    font-family:'Apercu';
+    color: #899efd ;
     align-items: flex-start;
     justify-content: center;
-    height:100vh;
+
   
   }
   .card {
-    background-color: #fff;
+    background-color: #06091a;;
    display:flex;
    margin-top:8rem;
    justify-content: center;
@@ -25,15 +24,15 @@
   .projectsBtn {
     all:unset;
     border: 1px solid transparent;
-    color: #fff;
-    background-color: #4466fc;
+    color: #06091a;;
+    background-color: #899efd;
     border-radius:12px;
     font-size:16px;
-    padding:12px;
+    padding:16px;
     display: flex;
     justify-content: center;
     width: fit-content;
-
+    margin-bottom:10px;
     transform: scale(1);
     
 }
@@ -41,5 +40,5 @@
 .projectsBtn:hover{
     animation: pulse 1s 1;
     cursor:pointer;
-    background-color:#FC4466;;
+    background-color:#fde786;;
 }

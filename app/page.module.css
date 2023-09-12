@@ -1,17 +1,26 @@
-/* Default styles for .main */
+.home {
+
+
+
+     margin:0;
+     padding:0;
+    width:100%;
+    height:100%;
+}
 .main {
 
   display: flex;
   grid-template-columns: repeat(2, 1fr);
-  font-family: Apercu;
-  color: #4466fc ;
+  font-family:'Apercu';
+  color: #899efd ;
   align-items: center;
   justify-content: center;
   height:75vh;
 
 }
 .card {
-  background-color: #fff;
+  font-family:'Apercu';
+  background-color: #06091a;
  display:flex;
  justify-content: center;
  padding:24px;
@@ -24,6 +33,7 @@
 .leftside > h1{
     font-size:40px;
     margin-top:12px;
+    margin-bottom:0;
 
 }
 .leftside > p{
@@ -34,15 +44,15 @@
     all:unset;
     margin:0.2rem;
     border: 1px solid transparent;
-    color: #fff;
-    background-color: #4466fc;
+    color: #06091a;
+    background-color: #899efd;
     border-radius:12px;
     font-size:16px;
-    padding:12px;
+    padding:16px;
     display: flex;
     justify-content: center;
     width: fit-content;
-
+  font-weight: bold;
     transform: scale(1);
     
 }
@@ -50,7 +60,7 @@
 .projectsBtn:hover{
     animation: pulse 1s 1;
     cursor:pointer;
-    background-color:#FC4466;;
+    background-color:#fde786;;
 }
 @keyframes pulse {
     0% {

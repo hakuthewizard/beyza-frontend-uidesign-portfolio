@@ -2,15 +2,17 @@
     display:flex;
     justify-content: center;
     align-items: center;
-   
+   border: 1px solid transparent;
+   border-radius:12px;
+ 
+
 }
 .smicon {
     width:32px;
     height:32px;
-    padding:0.2rem;
-
+    padding:0.1rem;
 }
 .smicon:hover{
     cursor: pointer;
-    color:#FC4466;
+    color:#fde786;
 }

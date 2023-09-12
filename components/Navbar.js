@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '@/styles/navbar.module.css'
 import Link from 'next/link';
-import Contact from '@/components/contact';
+import Contact from '@/components/Contact';
 
 const Navbar = () => {
 

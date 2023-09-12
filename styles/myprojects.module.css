@@ -5,8 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
-    background-color: #f1f1f1;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    top:0;
+  
 }
 .projectslist {
     list-style: none;
@@ -14,34 +17,68 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     justify-content: center;
-    font-family: Apercu;
-    margin-top:1rem;
-  
+    font-family:'Apercu';
     border-radius:16px;
     gap:1rem;
     align-items: center;
+    position: relative;
+    top:0;
 }
 .projectitem {
+    
     text-decoration: none;
-        color: #4466fc;
-        background-color: #fff;
-        font-family: Apercu;
+        color: #899efd;
+        background-color: #06091a;
+        font-family:'Apercu';
         padding: 12px;
         align-items: center;
         justify-content: center;
         border-radius: 12px;
         font-size:20px;
         width:350px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      position: relative;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
 }
+
+  .turnBtn {
+    all: unset;
+  position: absolute;
+  top: 0.4rem;
+  right: 0.6rem;
+  margin: 0.45rem;
+  
+  }
+.turnBtnIcon {
+    width: 20px;
+    height:20px;
+    background-color: #06091a;
+    border-radius:12px;
+    border:1px solid transparent;
+}
+.turnBtnIcon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.backCard {
+    height:195px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+
+
 .icon {
-    width: 32px;
-    height:32px;
+    width: 24px;
+    height:24px;
     margin:0.2rem;
+    align-self:center;
 }
 .projecttitle{
     font-size:24px;
-    font-weight: bold;
+    
     margin:12px;
     text-align: center;
 }
@@ -49,8 +86,8 @@
     
         all:unset;
         border: 1px solid transparent;
-        color: #fff;
-        background-color: #4466fc;
+        color: #06091a;
+        background-color: #899efd;
         border-radius:12px;
         font-size:16px;
         padding:12px;
@@ -60,12 +97,13 @@
         height:28px;
         margin:0.5rem;
         align-items: center;
+       
 }
     .projectlink:hover {
     cursor:pointer;
-    background-color: #FC4466;
+    background-color: #fde786;
 
-    font-weight: bold;
+    
     }
 .projectlinks {
     display:flex;
@@ -74,42 +112,8 @@
     flex-direction: column;
 }
 
-.projectimages {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    justify-content: center;
-    align-items: center;
-    margin-top:12px;
-}
-.projectimage {
-    height: fit-content;
-    width:400px;
-    border: 2px solid transparent;
-    border-radius:12px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-.previewbtn {
-    all:unset;
-        border: 2px solid #4466fc;
-        font-weight: 600;
-        color: #4466fc;
-        border-radius:12px;
-        font-size:16px;
-        padding:12px;
-        margin-top:0;
-        display: flex;
-        justify-content: center;
-        width:250px;
-        height: 28px;
-        align-items: center;
-        transform: scale(1);
-        margin-bottom:12px;
-}
-.previewbtn:hover {
-    cursor: pointer;
-    background-color: #e3e8ff;
-}
+
+
 @media (max-width: 768px) {
     /* Adjust .mainContainer padding for smaller screens */
     .projectslist {
@@ -117,9 +121,20 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-       
+       margin:0;
+       padding:0;
     }
     .projectitem{
         width:350px;
     }
+}
+.heading {
+    font-family:'Apercu';
+    font-size: 32px;
+    margin:0.5rem;
+    font-weight: bold;
+    padding:12px;
+    padding-bottom:0;
+    color:#06091a;
+    text-align: center;
 }

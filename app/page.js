@@ -9,10 +9,8 @@ import Navbar from '@/components/Navbar';
 const Home = () => {
   
   return (
-<>
-<Head>
-  <title>Beyza Ballı UI Dev. & Front End Portfolio</title>
-</Head>
+<div className={styles.home}>
+
 <Navbar/>
     <div className={styles.main}>
       <div className={styles.card}>
@@ -31,7 +29,7 @@ const Home = () => {
 
         </div>
         </div>
-        </>
+        </div>
    
   )
 }
