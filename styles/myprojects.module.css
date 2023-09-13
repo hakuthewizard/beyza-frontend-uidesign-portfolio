@@ -9,6 +9,7 @@
     margin:0;
     padding:0;
     top:0;
+    
   
 }
 .projectslist {
@@ -23,6 +24,7 @@
     align-items: center;
     position: relative;
     top:0;
+ 
 }
 .projectitem {
     
@@ -37,8 +39,7 @@
         font-size:20px;
         width:350px;
       position: relative;
-      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
   .turnBtn {
@@ -67,6 +68,7 @@
     align-items:  center;
     padding-right:0.5rem;
     padding-left:0.5rem;
+   
 }
 
 
@@ -97,6 +99,7 @@
         height:28px;
         margin:0.5rem;
         align-items: center;
+
        
 }
     .projectlink:hover {
@@ -135,6 +138,6 @@
     font-weight: bold;
     padding:12px;
     padding-bottom:0;
-    color:#06091a;
+    color:#030a28;
     text-align: center;
 }
