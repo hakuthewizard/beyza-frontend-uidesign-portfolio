@@ -96,7 +96,37 @@ const myProjects = () => {
     )}
   </div>
 </li>
+<li className={styles.projectitem}>
+  <div className={styles.cardContainer}>
+    <button className={styles.turnBtn} onClick={turnCard2Handler}>
+      <Image className={styles.turnBtnIcon} src={turn} alt="Turn Card" />
+    </button>
 
+    {turnCard2 ? (
+      <div className={styles.backCard}>
+          
+          <p>This project was created with <em>React.js</em>.This imaginary magic shop e-commerce application lists various *magical* items.</p>
+      
+    </div>
+    ) : (
+      <div className={styles.projectContent}>
+        <div className={styles.projectlinks}>
+          <p className={styles.projecttitle}>✨🪄🔮Magic Shop</p>
+          <a className={styles.projectlink} href="https://magic-shop-e-commerce.vercel.app/">
+            Go to Website
+          </a>
+          <div>
+            <a className={styles.projectlink} href="https://github.com/hakuthewizard/magic-shop-e-commerce">
+              <Image className={styles.icon} src={github} alt="GitHub Icon" />
+              View Code
+            </a>
+          </div>
+        </div>
+       
+      </div>
+    )}
+  </div>
+</li>
 <li className={styles.projectitem}>
   <div className={styles.cardContainer}>
     <button className={styles.turnBtn} onClick={turnCard3Handler}>
@@ -159,37 +189,7 @@ const myProjects = () => {
     )}
   </div>
 </li>
-<li className={styles.projectitem}>
-  <div className={styles.cardContainer}>
-    <button className={styles.turnBtn} onClick={turnCard2Handler}>
-      <Image className={styles.turnBtnIcon} src={turn} alt="Turn Card" />
-    </button>
 
-    {turnCard2 ? (
-      <div className={styles.backCard}>
-          
-          <p>This project was created with <em>React.js</em>.This imaginary magic shop e-commerce application lists various *magical* items.</p>
-      
-    </div>
-    ) : (
-      <div className={styles.projectContent}>
-        <div className={styles.projectlinks}>
-          <p className={styles.projecttitle}>✨🪄🔮Magic Shop</p>
-          <a className={styles.projectlink} href="https://magic-shop-e-commerce-website-react-app.vercel.app/">
-            Go to Website
-          </a>
-          <div>
-            <a className={styles.projectlink} href="https://github.com/hakuthewizard/MagicShop-ECommerceWebsite-React-App">
-              <Image className={styles.icon} src={github} alt="GitHub Icon" />
-              View Code
-            </a>
-          </div>
-        </div>
-       
-      </div>
-    )}
-  </div>
-</li>
 <li className={styles.projectitem}>
   <div className={styles.cardContainer}>
     <button className={styles.turnBtn} onClick={turnCard5Handler}>
