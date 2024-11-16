@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import styles from './page.module.css'
-import beyza from '@/public/beyza.png'
+import beyza from '@/public/beyza.jpg'
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 
@@ -18,7 +18,7 @@ const Home = () => {
         <h1>UI Design & <br/>
           Front-End Portfolio</h1>
         <p>Welcome to my portfolio, I am Beyza Ballı,<br/>
-          design student & aspiring web developer
+          a junior UI/UX Developer
         </p>
 <Link href='/myprojects' className={styles.projectsBtn}
 >My Projects</Link>

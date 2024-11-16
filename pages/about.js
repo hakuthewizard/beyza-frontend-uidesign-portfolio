@@ -20,7 +20,7 @@ export const About = () => {
         <h1>About Me</h1>
         <p>
         I am a self-taught web developer and an industrial<br/>
-        design student. My professional work combines <br/>
+        design graduate from ITU. My professional work combines <br/>
         the set of creative skills I have acquired as a design<br/> 
         student throughout my design education and  my <br/>
         my dedication and passion for web development
